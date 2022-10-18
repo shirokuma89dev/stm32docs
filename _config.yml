@@ -1,19 +1,21 @@
-name: 今日ものんびり明日ものんびり
-description: Blogging about stuffs
-meta_description: "生きているだけで素晴らしい白熊のゆるふわ日記"
+name: 今日は明日の昨日
+description: 生きているって素晴らしい
+meta_description: ""
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /
+baseurl: 
 domain_name: "http://note.shirokuma89.dev"
 google_analytics: "UA-XXXXXXXX-X"
 plugins: [jekyll-paginate]
 
+permalink: /:year:month:day/
+
 # Details for the RSS feed generator
 url: ""
-author: "Your Name"
+author: "shirokuma89dev"
 
 # Disqus config
 disqus-shortname: ""
