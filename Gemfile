@@ -1,1 +1,1 @@
-gem 'jekyll-notion'
+# gem 'jekyll-notion'
