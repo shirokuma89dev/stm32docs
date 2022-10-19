@@ -9,7 +9,9 @@ paginate: 15
 baseurl: 
 domain_name: "http://note.shirokuma89.dev"
 google_analytics: "UA-XXXXXXXX-X"
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-notion
+  - jekyll-paginate
 
 permalink: /:year:month:day/
 
@@ -19,3 +21,10 @@ author: "shirokuma89dev"
 
 # Disqus config
 disqus-shortname: ""
+
+notion:
+  databases:
+		- id: 98d68d7558ad4d3ba224e1f7c155813c
+      # collection: posts
+      # filter: { "property": "Published", "checkbox": { "equals": true } }
+      # sorts: [{ "timestamp": "created_time", "direction": "ascending" }]
