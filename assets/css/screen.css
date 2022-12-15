@@ -52,7 +52,7 @@ hr {
 }
 mark { background: #FF0; color: #000; }
 code, kbd, pre,
-samp { font-family: monospace, serif; font-size: 1em; }
+samp { font-family: Noto+Sans+JP, monospace, serif; font-size: 1em; }
 pre { white-space: pre-wrap; }
 q { quotes: "\201C" "\201D" "\2018" "\2019"; }
 small { font-size: 80%; }
@@ -74,7 +74,7 @@ fieldset {
 }
 legend { border: 0; padding: 0; }
 button, input, select,
-textarea { font-family: inherit; font-size: 100%; margin: 0; }
+textarea { font-family: -apple-system,inherit,"Noto Sans JP"; font-size: 100%; margin: 0; }
 button, input { line-height: normal; }
 button, select { text-transform: none; }
 button, html input[type="button"],
@@ -176,7 +176,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: -apple-system,inherit,"Merriweather","Noto Sans JP", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -674,7 +674,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: -apple-system,inherit,"Merriweather","Noto Sans JP", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -1165,7 +1165,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: -apple-system,inherit,"Merriweather","Noto Sans JP", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
