@@ -1,5 +1,5 @@
-name: 今日は明日の昨日
-description: 生きているって素晴らしい
+name: STM32講習
+description: 燃やした数だけ強くなれる
 meta_description: ""
 
 markdown: kramdown
@@ -7,13 +7,13 @@ highlighter: rouge
 logo: false
 paginate: 15
 baseurl: 
-domain_name: "http://note.shirokuma89.dev"
+domain_name: "http://stm32docs.shirokuma89.dev"
 google_analytics: "UA-XXXXXXXX-X"
 plugins:
   - jekyll-notion
   - jekyll-paginate
 
-permalink: /:year:month:day/
+permalink: /:title/
 
 # Details for the RSS feed generator
 url: ""
